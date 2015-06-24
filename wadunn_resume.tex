@@ -6,17 +6,21 @@
 
 \documentclass[11pt,letter,sans]{moderncv}
 
-\usepackage{verbatim}
-
 % moderncv themes
 \moderncvstyle{classic}
 \moderncvcolor{blue}
+
+
+% \usepackage[round]{natbib}
+% \usepackage[ManyBibs,LabelsAligned]{currvita}
+\usepackage{bibunits}
+\usepackage{verbatim}
 
 % character encoding
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
 
 % adjust the page margins
-\usepackage[scale=0.8]{geometry}
+\usepackage[scale=0.8, top=1cm, bottom=1cm, left=1cm, right=1cm]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 %\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
@@ -41,8 +45,28 @@
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
+\bibliographystyle{cv}
+\vspace{-5\baselineskip}
 \maketitle
+\vspace{-1.5\baselineskip}
 
+\section{Technical Expertise}
+\cvline{expert}{Python, Bash, regular expressions, advanced data visualization, IPython notebooks, SGE \& PBS HPC schedulers, YAML, HTML, CSS, XML, \LaTeX{}, pandoc, markdown, reStructuredText, Git, Python software packaging \& templating, software documentation with Sphinx, Gnu Parallel}
+\cvline{intermediate}{Perl, R, JSON, vim, unit testing, Mercurial, Bazaar, Subversion}
+\cvline{basic}{MySQL, PostgreSQL, SQlite, Lua, Tcl, Apache, javascript}
+\cvline{Python libs}{pandas, scipy, numpy, statsmodels, pyMC, matplotlib/pyplot, seaborn, ggplot, rpy2, networkx, pybedtools, pysam}
+\cvline{miscellaneous}{OSX, Windows, Linux, MS Word, MS Excel, Photoshop/Gimp, Illustrator/Inkscape}
+\cvline{wet-lab}{RNA-seq, ddRAD-seq, broad range of molecular biology \& protein biochemistry techniques}
+
+
+\section{Authored Software} % (fold)
+\cvline{blacktie}{An object oriented python pipeline that simplifies \& streamlines the running of complex tophat/cufflinks-based RNA-seq experiments into a single command plus a configuration file: designed with \underline{repeatability} \& \underline{usability} as priorities (\url{https://pypi.python.org/pypi/blacktie}).}
+\cvlistitem{\itshape Downloaded from \url{https://pypi.python.org} \underline{over 9,000 times}.}
+
+\cvline{gFunc}{A python-based \underline{integrative analysis framework} using network graphs to combine multidimensional data-types from disparate ``Omics'' sources for creating/exploiting functional-genomic gene sets across multiple species.}
+
+\cvline{spartan}{A bioinformatics package, providing the essentials to get a variety of computational jobs done quickly without flourish when that is all that is needed.}
+% section software (end)
 
 \section{Experience}
 % \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
@@ -50,92 +74,99 @@
 % \cvcomputer{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
 % \cvline{hobby 1}{\small Description}
 
-\cventry{2014--present}{Postdoctoral Associate}{Dept. of Ecology and Evolutionary Biology}{Yale University}{New Haven, CT}{Tsetse.\\
+\cventry{2014--present}{Postdoctoral Associate}{Dept. of Ecology \& Evolutionary Biology}{Yale University}{New Haven, CT}{Characterization of gene-flow and genotype/phenotype relationships in tsetse fly populations in Uganda.\\
 {\itshape\textbf{Highlights:}
     \begin{itemize}
-        \item Implemented a Bayesian filtering method for setting thresholds for ``interesting'' SNP-pairs based on distributions of distance binned linkage disequilibrium values in ddRAD-based population genomics results.
-        \item Designed and implemented relational database to track and curate field samples.
-        \item Established and maintained a shared environment modules-based software library for the lab group on one of the super-computing clusters here at Yale.
-        \item contributed to pyrad (an open-source RAD-seq analysis pipeline) by re-factoring the repository structure and allowing it to be installed in the standard \textup{\texttt{pip install pyrad}} form -- substantially increasing the potential user-base.
+        \item Supervised month-long field expedition collecting tsetse flies in northern Uganda.
+        \item \underline{Maximized sensitivity} while balancing specificity by implementing \underline{Bayesian filtering method} to set thresholds for ``interesting'' SNP-pairs based on distributions of distance-binned linkage disequilibrium values in ddRAD-based population genomics results.
+        \item Designed \& currently implementing relational database to track \& curate field samples with web front-end.
+        \item Established \& maintained a shared environment modules-based software library for the lab group on one of Yale's super-computing clusters.
+        \item Substantially increased the potential user-base of \textup{\texttt{pyrad}} (open-source RAD-seq analysis pipeline) by re-factoring to allow one-step installation with the conventional \textup{\texttt{pip install pyrad}} form.
     \end{itemize}}}
 
-\cventry{2009}{Master Consultant}{KDH Research \& Communication}{}{Atlanta, GA}{Reviewed and provided \textit{pro bono} feedback and corrections on materials for ``\textit{Genetics for Kids}'' modules, a supplement for communicating genetics in public school curricula.}
+
+\cventry{2008-2014}{Doctoral Research}{Anthony James Lab}{University of California, Irvine}{Irvine, CA}{
+    Studied gene expression in midguts of four mosquito species following bloodmeal in support of designing synthetic DNA elements for engineering disease transmission-refractory phenotypes.\\
+    {\itshape\textbf{Highlights:}
+    \begin{itemize}
+        \item Applied \underline{data mining methods} such as clustering, hidden Markov models, expectation maximization, and dimension reduction to \underline{large-scale multidimentional transcriptomics data}.
+        \item Integration of multiple genome-scale data-types applied to \underline{complex phenotypes} of expression profiles in species separated by ~250 MY allowed generation of \underline{testable hypotheses} about the underlying transcriptional control mechanisms.
+        \item Set up and maintained a local Galaxy-based site along with custom workflows and bespoke analysis tools to provide \underline{data-sharing} and \underline{provenance} for transcriptomic analyses.
+        \item Established numerous and \underline{productive multidisciplinary collaborative relationships} which generated 11 publications from 2008-2014.
+    \end{itemize}}
+}
 
 
-\cventry{2009}{Graduate Teaching Assistant}{School of Biological Sciences}{University of California, Irvine}{Irvine, CA}{BIO SCI M137 --- Microbial Genetics}
 
-\cventry{2009}{Graduate Laboratory Assistant}{School of Biological Sciences}{University of California, Irvine}{Irvine, CA}{BIO SCI M118L --- Experimental Microbiology Lab}
+\cventry{2009}{Master Consultant}{KDH Research \& Communication}{}{Atlanta, GA}{Reviewed \& provided \textit{pro bono} feedback \& corrections on materials for ``\textit{Genetics for Kids}'' modules, a supplement for communicating genetics in public school curricula.}
 
-\cventry{2006--2007}{Research Laboratory Technician}{Geomicrobiology Group}{University of Southern California}{Los Angeles, CA}{Studied microorganisms' role in mediating the mechanisms of rock, mineral, and organic matter transformations on progressively older mid-oceanic basalt samples.\\
+
+% \cventry{2009}{Graduate Teaching Assistant}{School of Biological Sciences}{University of California, Irvine}{Irvine, CA}{BIO SCI M137 --- Microbial Genetics}
+
+% \cventry{2009}{Graduate Laboratory Assistant}{School of Biological Sciences}{University of California, Irvine}{Irvine, CA}{BIO SCI M118L --- Experimental Microbiology Lab}
+
+\cventry{2006--2007}{Research Laboratory Technician}{Geomicrobiology Group}{University of Southern California}{Los Angeles, CA}{Studied role of microorganisms in mediating rock, mineral, \& organic matter transformations on progressively older mid-oceanic basalt samples.\\
 {\itshape\textbf{Highlights:}
     \begin{itemize}
-        \item Set up a new lab and interfaced with construction contractors while supervisor was at sea.
+        \item Set up a new lab \& interfaced with construction contractors while supervisor was at sea.
         \item Established the lab's capacity to perform qPCR for the purpose of comparing bacterial population structures on aged basalt.
     \end{itemize}}}
 
 
-\cventry{2003--2006}{Laboratory Technician II to Research Professional I}{Dept. of Cellular Biology}{University of Georgia}{Athens, GA}{Characterized the expression and annotated the gene models of cuticular protein genes in \textit{Anopheles gambiae}.\\
+\cventry{2003--2006}{Laboratory Technician II to Research Professional I}{Dept. of Cellular Biology}{University of Georgia}{Athens, GA}{Characterized the expression \& annotated the gene models of cuticular protein genes in \textit{Anopheles gambiae}.\\
 {\itshape\textbf{Highlights:}
     \begin{itemize}
         \item Established the lab's capacity to perform qRT-PCR.
-        \item Trained multiple other labs in the execution and avoidance of common pitfalls of qRT-PCR.
-        \item Wrote several bespoke Perl tools to aid in primer design and a web-based primer database to manage the hundreds of primer-pairs generated by the project.
+        \item Trained three other labs in the theory, protocols, and analysis of qRT-PCR.
+        \item Wrote several bespoke Perl tools to aid in primer design \& a web-based primer database to manage the hundreds of primer-pairs generated by the project.
     \end{itemize}}}
 
-\section{Technical Expertise}
-\subsection{Computer Skills}
-\cvline{expert}{Python, Bash, SGE and PBS HPC schedulers, YAML, HTML, CSS, XML, \LaTeX{}, pandoc, markdown, reStructuredText, Git, Python software packaging and templating, software documentation with Sphinx, Gnu Parallel}
-\cvline{intermediate}{Perl, R, JSON, vim, unit testing, Mercurial, Bazaar, Subversion}
-\cvline{basic}{MySQL, PostgreSQL, SQlite, Lua, Tcl, Apache, javascript}
-\cvline{Python libs}{pandas, scipy, numpy, statsmodels, pyMC, matplotlib/pyplot, seaborn, ggplot, rpy2, networkx, pybedtools, pysam}
-\cvline{miscellaneous}{OSX, Windows, Linux, MS Word, MS Excel, Photoshop/Gimp, Illustrator/Inkscape}
 
-\section{Authored Software} % (fold)
-\cvline{blacktie}{An object oriented python pipeline that simplifies and streamlines the running of complex tophat/cufflinks-based RNA-seq experiments into a single command plus a configuration file: designed with repeatability and usability as priorities (repository: \url{https://pypi.python.org/pypi/blacktie}).}
-\cvlistitem{\itshape Downloaded from \url{https://pypi.python.org} \textbf{over 9,000 times}.}
-
-\cvline{gFunc}{A python-based integrative analysis framework using network graphs to combine multidimensional data-types from disparate ``Omics'' sources for creating/exploiting functional-genomic gene sets across multiple species.}
-
-\cvline{spartan}{A personal ``spartan'' bioinformatics package, providing the essentials and nothing fancy or luxurious. Enough to get the job done quickly without flourish when that is all that is called for.}
-% section software (end)
 
 \section{Education}
 \cventry{2008--2014}{PhD, Biological Sciences}{University of California, Irvine}{Irvine, CA}{}{}
-\cvline{topic:}{\textit{Comparative Transcriptomics of Blood-feeding in Midguts of Three Disease-vector Mosquito Species}}
-\cvline{advisor:}{\small Professor Anthony James (Molecular Biology \& Biochemistry)}
-\cvline{co-advisor:}{\small Professor Xiaohui Xie (Department of Computer Science)}
+\cvline{topic}{\textit{Comparative Transcriptomics of Blood-feeding in Midguts of Three Disease-vector Mosquito Species}}
+\cvline{advisor}{\small Professor Anthony James (Molecular Biology \& Biochemistry)}
+\cvline{co-advisor}{\small Professor Xiaohui Xie (Department of Computer Science)}
 \cventry{1998--2003}{BS, Biology (\textit{emphasis in molecular genetics})}{University of Georgia}{Athens, GA}{}{}  % arguments 3 to 6 can be left empty
-\cvline{mentor:}{\small Professor Judith Willis}
+\cvline{mentor}{\small Professor Judith Willis}
 
 \section{Selected Coursework}
 \cvline{University of California, Irvine}{Representations \& Algorithms for Molecular Biology, Probabilistic Modeling of Biological Data, Quantitative Methods in Biology}
 
 
-\section{Honors and Awards}
-\cvline{2011}{The Pacific-Southwest Regional Center of Excellence for Biodefense and Emerging Infectious Diseases Annual Meeting Travel Award.}
+\section{Honors \& Awards}
+\cvline{2011}{The Pacific-Southwest Regional Center of Excellence for Biodefense \& Emerging Infectious Diseases Annual Meeting Travel Award.}
 \cvline{2010}{President of UCI's IGB Biomedical Informatics Training fellows}
 \cvline{2009-2012}{Biomedical Informatics Training fellow {\sffamily(NIH/NLM 5T15LM007443)}}
 
-\section{Activities}
-\cventry{2004--2007}{Ultimate Frisbee Club Team}{UCLA}{Los Angeles, CA}{}{
-Practiced four times a week and traveled across the western united states for between 10 and 12 tournaments each year.
-}
-\cventry{2007--2011}{Ultimate Frisbee Club Teams}{UW-Madison}{Madison, WI}{}{
-Practiced and traveled with three Madison based ultimate frisbee club teams.
-Played in numerous recreational leagues.
-}
-\cventry{2007--2011}{Engineers Without Borders}{UW-Madison}{Madison, WI and Orongo, Kenya}{}{
-Began a long term irrigation system project to allow the members of Orongo to grow more profitable crops.
-Started an income generating agroforestry project at a Kenyan Primary School.
-Built and tested prototype biosand filters in both Kenya and Madison.
-Built and tested prototype low cost solar cookers in both Kenya and Madison.
-}
-\cventry{2011-present}{Ultimate Frisbee Club Teams}{Ultimate Chicago}{Chicago, IL}{}{
-Coached, captained, and played on several teams in recreational leagues.
-}
-\cventry{}{Other Current Hobbies}{}{}{}{
-Web Programming, Camping, Hiking, Backpacking, Traveling, Road Trips, Basketball, Piano, Guitar
-}
+
+\begin{bibunit}[cv]
+\nocite{bonizzoni2013probing,bonizzoni2012complex,bonizzoni2012comparative,bonizzoni2012strain,bonizzoni2011rna,dissanayake2010aegepuci,sieglaff2009comparative}
+\putbib[cv]
+\end{bibunit}
+
+
+% \section{Activities}
+% \cventry{2004--2007}{Ultimate Frisbee Club Team}{UCLA}{Los Angeles, CA}{}{
+% Practiced four times a week \& traveled across the western united states for between 10 \& 12 tournaments each year.
+% }
+% \cventry{2007--2011}{Ultimate Frisbee Club Teams}{UW-Madison}{Madison, WI}{}{
+% Practiced \& traveled with three Madison based ultimate frisbee club teams.
+% Played in numerous recreational leagues.
+% }
+% \cventry{2007--2011}{Engineers Without Borders}{UW-Madison}{Madison, WI \& Orongo, Kenya}{}{
+% Began a long term irrigation system project to allow the members of Orongo to grow more profitable crops.
+% Started an income generating agroforestry project at a Kenyan Primary School.
+% Built \& tested prototype biosand filters in both Kenya \& Madison.
+% Built \& tested prototype low cost solar cookers in both Kenya \& Madison.
+% }
+% \cventry{2011-present}{Ultimate Frisbee Club Teams}{Ultimate Chicago}{Chicago, IL}{}{
+% Coached, captained, \& played on several teams in recreational leagues.
+% }
+% \cventry{}{Other Current Hobbies}{}{}{}{
+% Web Programming, Camping, Hiking, Backpacking, Traveling, Road Trips, Basketball, Piano, Guitar
+% }
 
 
 

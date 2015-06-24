@@ -1,0 +1,104 @@
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{}
+\providecommand{\foreignlanguage}[2]{#2}
+\providecommand{\Capitalize}[1]{\uppercase{#1}}
+\providecommand{\capitalize}[1]{\expandafter\Capitalize#1}
+\providecommand{\bibliographycite}[1]{\cite{#1}}
+\providecommand{\bbland}{and}
+\providecommand{\bblchap}{chap.}
+\providecommand{\bblchapter}{chapter}
+\providecommand{\bbletal}{et~al.}
+\providecommand{\bbleditors}{editors}
+\providecommand{\bbleds}{eds.}
+\providecommand{\bbleditor}{editor}
+\providecommand{\bbled}{ed.}
+\providecommand{\bbledition}{edition}
+\providecommand{\bbledn}{ed.}
+\providecommand{\bbleidp}{page}
+\providecommand{\bbleidpp}{pages}
+\providecommand{\bblerratum}{erratum}
+\providecommand{\bblin}{in}
+\providecommand{\bblmthesis}{Master's thesis}
+\providecommand{\bblno}{no.}
+\providecommand{\bblnumber}{number}
+\providecommand{\bblof}{of}
+\providecommand{\bblpage}{page}
+\providecommand{\bblpages}{pages}
+\providecommand{\bblp}{p}
+\providecommand{\bblphdthesis}{Ph.D. thesis}
+\providecommand{\bblpp}{pp}
+\providecommand{\bbltechrep}{Tech. Rep.}
+\providecommand{\bbltechreport}{Technical Report}
+\providecommand{\bblvolume}{volume}
+\providecommand{\bblvol}{Vol.}
+\providecommand{\bbljan}{January}
+\providecommand{\bblfeb}{February}
+\providecommand{\bblmar}{March}
+\providecommand{\bblapr}{April}
+\providecommand{\bblmay}{May}
+\providecommand{\bbljun}{June}
+\providecommand{\bbljul}{July}
+\providecommand{\bblaug}{August}
+\providecommand{\bblsep}{September}
+\providecommand{\bbloct}{October}
+\providecommand{\bblnov}{November}
+\providecommand{\bbldec}{December}
+\providecommand{\bblfirst}{First}
+\providecommand{\bblfirsto}{1st}
+\providecommand{\bblsecond}{Second}
+\providecommand{\bblsecondo}{2nd}
+\providecommand{\bblthird}{Third}
+\providecommand{\bblthirdo}{3rd}
+\providecommand{\bblfourth}{Fourth}
+\providecommand{\bblfourtho}{4th}
+\providecommand{\bblfifth}{Fifth}
+\providecommand{\bblfiftho}{5th}
+\providecommand{\bblst}{st}
+\providecommand{\bblnd}{nd}
+\providecommand{\bblrd}{rd}
+\providecommand{\bblth}{th}
+\begin{thebibliography}{1}
+
+\bibitem{bonizzoni2013probing}
+M.~Bonizzoni, M.~Britton, O.~Marinotti, W.~A. Dunn, J.~Fass, A.~A. James.
+  Probing functional polymorphisms in the dengue vector, Aedes aegypti.
+  \emph{BMC genomics} \textbf{2013}, \emph{14}, 739.
+
+\bibitem{bonizzoni2012complex}
+M.~Bonizzoni, W.~A. Dunn, C.~L. Campbell, K.~E. Olson, O.~Marinotti, A.~A.
+  James. Complex Modulation of the <italic>Aedes aegypti</italic> Transcriptome
+  in Response to Dengue Virus Infection. \emph{PLoS ONE} \textbf{2012},
+  \emph{7}, e50512.
+
+\bibitem{bonizzoni2012comparative}
+M.~Bonizzoni, Y.~Afrane, W.~A. Dunn, F.~K. Atieli, G.~Zhou, D.~Zhong, J.~Li,
+  A.~Githeko, G.~Yan. Comparative Transcriptome Analyses of
+  Deltamethrin-Resistant and -Susceptible <italic>Anopheles gambiae</italic>
+  Mosquitoes from Kenya by RNA-Seq. \emph{PLoS ONE} \textbf{2012}, \emph{7},
+  e44607.
+
+\bibitem{bonizzoni2012strain}
+M.~Bonizzoni, W.~A. Dunn, C.~L. Campbell, K.~E. Olson, O.~Marinotti, A.~A.
+  James. Strain variation in the transcriptome of the dengue fever vector,
+  Aedes aegypti. \emph{G3: Genes| Genomes| Genetics} \textbf{2012}, \emph{2},
+  103--114.
+
+\bibitem{bonizzoni2011rna}
+M.~Bonizzoni, W.~A. Dunn, C.~L. Campbell, K.~E. Olson, M.~T. Dimon,
+  O.~Marinotti, A.~A. James. RNA-seq analyses of blood-induced changes in gene
+  expression in the mosquito vector species, Aedes aegypti. \emph{BMC genomics}
+  \textbf{2011}, \emph{12}, 82.
+
+\bibitem{dissanayake2010aegepuci}
+S.~N. Dissanayake, J.~M. Ribeiro, M.-H. Wang, W.~A. Dunn, G.~Yan, A.~A. James,
+  O.~Marinotti. aeGEPUCI: a database of gene expression in the dengue vector
+  mosquito, Aedes aegypti. \emph{BMC research notes} \textbf{2010}, \emph{3},
+  248.
+
+\bibitem{sieglaff2009comparative}
+D.~H. Sieglaff, W.~A. Dunn, X.~S. Xie, K.~Megy, O.~Marinotti, A.~A. James.
+  Comparative genomics allows the discovery of cis-regulatory elements in
+  mosquitoes. \emph{Proceedings of the National Academy of Sciences}
+  \textbf{2009}, \emph{106}, 3053--3058.
+
+\end{thebibliography}

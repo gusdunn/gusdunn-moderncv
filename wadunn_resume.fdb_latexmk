@@ -1,6 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1435091159 "wadunn_resume.tex" "wadunn_resume.pdf" "wadunn_resume" 1435091160
-  "./wadunn_resume.out" 1435091160 952 2ebbbb7e6008009c2803afe94ddff714 ""
+["bibtex bu1"] 1435179016 "bu1.aux" "bu1.bbl" "bu1" 1435179017
+  "/usr/share/texmf-dist/bibtex/bst/chembst/cv.bst" 1428277001 32221 a262eec384642b476d61a1ef876a35d3 ""
+  "bu1.aux" 1435179017 499 ce9f5af9e014bb15633d8d03e16f9600 ""
+  "bu1.bcf" 0 -1 0 ""
+  "cv.bib" 1435175882 10891 d130dd78ea02b564985e2a6056e61456 ""
+  (generated)
+  "bu1.bbl"
+["pdflatex"] 1435179016 "wadunn_resume.tex" "wadunn_resume.pdf" "wadunn_resume" 1435179017
+  "./wadunn_resume.out" 1435179017 824 db02d635593f62c31bf3bacbfd8f10b5 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1428273608 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1428273608 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1428273608 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -123,6 +130,7 @@
   "/usr/share/texmf-dist/tex/latex/base/t1enc.def" 1428273609 9097 3d740f5a942bdde0d974eb1398aae41c ""
   "/usr/share/texmf-dist/tex/latex/base/t1enc.dfu" 1428273609 7405 1ec6ceee22fd8064f4a510ce9c02c6f9 ""
   "/usr/share/texmf-dist/tex/latex/base/utf8.def" 1428273609 6275 d5cccabec4a8548b643c15bcf3741c28 ""
+  "/usr/share/texmf-dist/tex/latex/bibunits/bibunits.sty" 1428277001 10533 ddd7b69571e229aa1b7d5a81509733fc ""
   "/usr/share/texmf-dist/tex/latex/etex-pkg/etex.sty" 1428273609 15831 00a960d3ee6577f0512e2fd6b465c9e8 ""
   "/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1428274785 41221 a23c005f57e61d7673c18b4b32f83c9b ""
   "/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1428273609 20521 e5d13d98d57bd53d4fed3aa61bd29c86 ""
@@ -190,11 +198,15 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1428273613 31669 df537245012f3e5f05bdc55644b7a3df ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1428586222 1509610 dfcea24eb7d8f76f82fd8374f91fe682 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1432756011 7204457 aa9df22e6559c92f57b4d96ba1c1f19c ""
-  "wadunn_resume.aux" 1435091160 1213 b43c7d197ac3cacf13db48007d753d5d ""
-  "wadunn_resume.out" 1435091160 952 2ebbbb7e6008009c2803afe94ddff714 ""
-  "wadunn_resume.tex" 1435091158 11297 970450236493ceb6d7fb449b251f3ef1 ""
+  "bu.aux" 0 -1 0 ""
+  "bu1.aux" 1435179017 499 ce9f5af9e014bb15633d8d03e16f9600 ""
+  "bu1.bbl" 1435179016 4072 563b69e10d687c960f83afa86e3af9d0 "bibtex bu1"
+  "wadunn_resume.aux" 1435179017 1151 55d461cf2cf3327ce7b2d8c1ff9d474e ""
+  "wadunn_resume.out" 1435179017 824 db02d635593f62c31bf3bacbfd8f10b5 ""
+  "wadunn_resume.tex" 1435179014 13331 c4051e24be263733c6cbc3f58394680a ""
   (generated)
-  "wadunn_resume.out"
-  "wadunn_resume.log"
   "wadunn_resume.pdf"
+  "wadunn_resume.out"
+  "bu1.aux"
   "wadunn_resume.aux"
+  "wadunn_resume.log"
