@@ -1,0 +1,263 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{none}{none}
+    \entry{bonizzoni2013probing}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=7a353a84d8a9b32b716a9db3be6ae50d}{Bonizzoni}{B\bibinitperiod}{Mariangela}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=4777fc306224c67c0b83d8ee4725ce6e}{Britton}{B\bibinitperiod}{Monica}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6fdc8c480a1d43946563c529d2630e60}{Marinotti}{M\bibinitperiod}{Osvaldo}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=37ff1b0e407b7c98da5a934f3280c0cf}{Dunn}{D\bibinitperiod}{William\bibnamedelima A}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=1e196fcecaf976ca9cc039180681e2d5}{Fass}{F\bibinitperiod}{Joseph}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5c6a957242e16b544656fa104f082c1b}{James}{J\bibinitperiod}{Anthony\bibnamedelima A}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=7a353a84d8a9b32b716a9db3be6ae50d}{Bonizzoni}{B\bibinitperiod}{Mariangela}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=4777fc306224c67c0b83d8ee4725ce6e}{Britton}{B\bibinitperiod}{Monica}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6fdc8c480a1d43946563c529d2630e60}{Marinotti}{M\bibinitperiod}{Osvaldo}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=37ff1b0e407b7c98da5a934f3280c0cf}{Dunn}{D\bibinitperiod}{William\bibnamedelima A}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=1e196fcecaf976ca9cc039180681e2d5}{Fass}{F\bibinitperiod}{Joseph}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5c6a957242e16b544656fa104f082c1b}{James}{J\bibinitperiod}{Anthony\bibnamedelima A}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {BioMed Central Ltd}%
+      }
+      \strng{namehash}{2e6b96da75d79cd7c601015ebbd75a25}
+      \strng{fullhash}{f2258f8daf07b044379f69837cfd3c1e}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Probing functional polymorphisms in the dengue vector, Aedes aegypti}
+      \field{journaltitle}{BMC genomics}
+      \field{number}{1}
+      \field{title}{Probing functional polymorphisms in the dengue vector, Aedes aegypti}
+      \field{volume}{14}
+      \field{year}{2013}
+      \field{pages}{739}
+    \endentry
+    \entry{bonizzoni2012complex}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=7a353a84d8a9b32b716a9db3be6ae50d}{Bonizzoni}{B\bibinitperiod}{Mariangela}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=b402495929cbcdbdd5615eb729eea6f4}{Dunn}{D\bibinitperiod}{W.\bibnamedelimi Augustine}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=4edf7ff2d4c6ac8a24757668ba35731a}{Campbell}{C\bibinitperiod}{Corey\bibnamedelima L.}{C\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=19f7b0ba7fafd0825c55d3c5aaa2d895}{Olson}{O\bibinitperiod}{Ken\bibnamedelima E.}{K\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=6fdc8c480a1d43946563c529d2630e60}{Marinotti}{M\bibinitperiod}{Osvaldo}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=0921b0f37e608a64d357e2dd8a9b0bc9}{James}{J\bibinitperiod}{Anthony\bibnamedelima A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=7a353a84d8a9b32b716a9db3be6ae50d}{Bonizzoni}{B\bibinitperiod}{Mariangela}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=b402495929cbcdbdd5615eb729eea6f4}{Dunn}{D\bibinitperiod}{W.\bibnamedelimi Augustine}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=4edf7ff2d4c6ac8a24757668ba35731a}{Campbell}{C\bibinitperiod}{Corey\bibnamedelima L.}{C\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=19f7b0ba7fafd0825c55d3c5aaa2d895}{Olson}{O\bibinitperiod}{Ken\bibnamedelima E.}{K\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=6fdc8c480a1d43946563c529d2630e60}{Marinotti}{M\bibinitperiod}{Osvaldo}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=0921b0f37e608a64d357e2dd8a9b0bc9}{James}{J\bibinitperiod}{Anthony\bibnamedelima A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{2e6b96da75d79cd7c601015ebbd75a25}
+      \strng{fullhash}{c28b88b819f382094953d12a2b8acd96}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Complex Modulation of the \textit{Aedes aegypti} Transcriptome in Response to Dengue Virus Infection}
+      \field{abstract}{<p>Dengue fever is the most important arboviral disease world-wide, with \textit{Aedes aegypti} being the major vector. Interactions between the mosquito host and dengue viruses (DENV) are complex and vector competence varies among geographically-distinct \textit{Ae. aegypti} populations. Additionally, dengue is caused by four antigenically-distinct viral serotypes (DENV1–4), each with multiple genotypes. Each virus genotype interacts differently with vertebrate and invertebrate hosts. Analyses of alterations in mosquito transcriptional profiles during DENV infection are expected to provide the basis for identifying networks of genes involved in responses to viruses and contribute to the molecular-genetic understanding of vector competence. In addition, this knowledge is anticipated to support the development of novel disease-control strategies. RNA-seq technology was used to assess genome-wide changes in transcript abundance at 1, 4 and 14 days following DENV2 infection in carcasses, midguts and salivary glands of the \textit{Ae. aegypti} Chetumal strain. DENV2 affected the expression of 397 \textit{Ae. aegypti} genes, most of which were down-regulated by viral infection. Differential accumulation of transcripts was mainly tissue- and time-specific. Comparisons of our data with other published reports reveal conservation of functional classes, but limited concordance of specific mosquito genes responsive to DENV2 infection. These results indicate the necessity of additional studies of mosquito-DENV interactions, specifically those focused on recently-derived mosquito strains with multiple dengue virus serotypes and genotypes.</p>}
+      \field{journaltitle}{PLoS ONE}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Complex Modulation of the \textit{Aedes aegypti} Transcriptome in Response to Dengue Virus Infection}
+      \field{volume}{7}
+      \field{year}{2012}
+      \field{pages}{e50512}
+    \endentry
+    \entry{bonizzoni2012comparative}{article}{}
+      \name{labelname}{9}{}{%
+        {{hash=7a353a84d8a9b32b716a9db3be6ae50d}{Bonizzoni}{B\bibinitperiod}{Mariangela}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=82a1d9043f7814ebf15155dea27566d1}{Afrane}{A\bibinitperiod}{Yaw}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=e8978a0848a6e5db33ba34f5235ed08e}{Dunn}{D\bibinitperiod}{William\bibnamedelima Augustine}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=f62d1a61fbdf8479972db91b420de320}{Atieli}{A\bibinitperiod}{Francis\bibnamedelima K.}{F\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=9891293713fe7740ae40b01c0e81fbb1}{Zhou}{Z\bibinitperiod}{Goufa}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=09fd5033d6a17c913400df4e97c4483b}{Zhong}{Z\bibinitperiod}{Daibin}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=bc20e54573d2db853852f86802ab83de}{Li}{L\bibinitperiod}{Jun}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=b7805a5d8d38ccc6a2393b21e7d9060b}{Githeko}{G\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=bfdc8e0b67dff1e06302632eb3141bdc}{Yan}{Y\bibinitperiod}{Guiyun}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{9}{}{%
+        {{hash=7a353a84d8a9b32b716a9db3be6ae50d}{Bonizzoni}{B\bibinitperiod}{Mariangela}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=82a1d9043f7814ebf15155dea27566d1}{Afrane}{A\bibinitperiod}{Yaw}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=e8978a0848a6e5db33ba34f5235ed08e}{Dunn}{D\bibinitperiod}{William\bibnamedelima Augustine}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=f62d1a61fbdf8479972db91b420de320}{Atieli}{A\bibinitperiod}{Francis\bibnamedelima K.}{F\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=9891293713fe7740ae40b01c0e81fbb1}{Zhou}{Z\bibinitperiod}{Goufa}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=09fd5033d6a17c913400df4e97c4483b}{Zhong}{Z\bibinitperiod}{Daibin}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=bc20e54573d2db853852f86802ab83de}{Li}{L\bibinitperiod}{Jun}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=b7805a5d8d38ccc6a2393b21e7d9060b}{Githeko}{G\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=bfdc8e0b67dff1e06302632eb3141bdc}{Yan}{Y\bibinitperiod}{Guiyun}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{2e6b96da75d79cd7c601015ebbd75a25}
+      \strng{fullhash}{ae9937354906b6ca06393d1b8e6c8afe}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Comparative Transcriptome Analyses of Deltamethrin-Resistant and -Susceptible \textit{Anopheles gambiae} Mosquitoes from Kenya by RNA-Seq}
+      \field{abstract}{<p>Malaria causes more than 300 million clinical cases and 665,000 deaths each year, and the majority of the mortality and morbidity occurs in sub-Saharan Africa. Due to the lack of effective vaccines and wide-spread resistance to antimalarial drugs, mosquito control is the primary method of malaria prevention and control. Currently, malaria vector control relies on the use of insecticides, primarily pyrethroids. The extensive use of insecticides has imposed strong selection pressures for resistance in the mosquito populations. Consequently, resistance to pyrethroids in \textit{Anopheles gambiae}, the main malaria vector in sub-Saharan Africa, has become a major obstacle for malaria control. A key element of resistance management is the identification of resistance mechanisms and subsequent development of reliable resistance monitoring tools. Field-derived \textit{An. gambiae} from Western Kenya were phenotyped as deltamethrin-resistant or -susceptible by the standard WHO tube test, and their expression profile compared by RNA-seq. Based on the current annotation of the \textit{An. gambiae} genome, a total of 1,093 transcripts were detected as significantly differentially accumulated between deltamethrin-resistant and -susceptible mosquitoes. These transcripts are distributed over the entire genome, with a large number mapping in QTLs previously linked to pyrethorid resistance, and correspond to heat-shock proteins, metabolic and transport functions, signal transduction activities, cytoskeleton and others. The detected differences in transcript accumulation levels between resistant and susceptible mosquitoes reflect transcripts directly or indirectly correlated with pyrethroid resistance. RNA-seq data also were used to perform a \textit{de-novo} Cufflinks assembly of the \textit{An. gambiae} genome.</p>}
+      \field{journaltitle}{PLoS ONE}
+      \field{month}{09}
+      \field{number}{9}
+      \field{title}{Comparative Transcriptome Analyses of Deltamethrin-Resistant and -Susceptible \textit{Anopheles gambiae} Mosquitoes from Kenya by RNA-Seq}
+      \field{volume}{7}
+      \field{year}{2012}
+      \field{pages}{e44607}
+    \endentry
+    \entry{bonizzoni2012strain}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=7a353a84d8a9b32b716a9db3be6ae50d}{Bonizzoni}{B\bibinitperiod}{Mariangela}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=e9e5faecf6f711a3a39c5557d32e299a}{Dunn}{D\bibinitperiod}{W\bibnamedelima Augustine}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=78db313f9bc4b2b3859408842571e6b5}{Campbell}{C\bibinitperiod}{Corey\bibnamedelima L}{C\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=053ed94e9acdf2a1cdaad4e6676fcdd6}{Olson}{O\bibinitperiod}{Ken\bibnamedelima E}{K\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=6fdc8c480a1d43946563c529d2630e60}{Marinotti}{M\bibinitperiod}{Osvaldo}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=5c6a957242e16b544656fa104f082c1b}{James}{J\bibinitperiod}{Anthony\bibnamedelima A}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=7a353a84d8a9b32b716a9db3be6ae50d}{Bonizzoni}{B\bibinitperiod}{Mariangela}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=e9e5faecf6f711a3a39c5557d32e299a}{Dunn}{D\bibinitperiod}{W\bibnamedelima Augustine}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=78db313f9bc4b2b3859408842571e6b5}{Campbell}{C\bibinitperiod}{Corey\bibnamedelima L}{C\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=053ed94e9acdf2a1cdaad4e6676fcdd6}{Olson}{O\bibinitperiod}{Ken\bibnamedelima E}{K\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=6fdc8c480a1d43946563c529d2630e60}{Marinotti}{M\bibinitperiod}{Osvaldo}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=5c6a957242e16b544656fa104f082c1b}{James}{J\bibinitperiod}{Anthony\bibnamedelima A}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Genetics Society of America}%
+      }
+      \strng{namehash}{2e6b96da75d79cd7c601015ebbd75a25}
+      \strng{fullhash}{777fb493200d4d94639223d1b0925b9e}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Strain variation in the transcriptome of the dengue fever vector, Aedes aegypti}
+      \field{journaltitle}{G3: Genes| Genomes| Genetics}
+      \field{number}{1}
+      \field{title}{Strain variation in the transcriptome of the dengue fever vector, Aedes aegypti}
+      \field{volume}{2}
+      \field{year}{2012}
+      \field{pages}{103\bibrangedash 114}
+    \endentry
+    \entry{bonizzoni2011rna}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=7a353a84d8a9b32b716a9db3be6ae50d}{Bonizzoni}{B\bibinitperiod}{Mariangela}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=e9e5faecf6f711a3a39c5557d32e299a}{Dunn}{D\bibinitperiod}{W\bibnamedelima Augustine}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=78db313f9bc4b2b3859408842571e6b5}{Campbell}{C\bibinitperiod}{Corey\bibnamedelima L}{C\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=053ed94e9acdf2a1cdaad4e6676fcdd6}{Olson}{O\bibinitperiod}{Ken\bibnamedelima E}{K\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=7360fbf599b76bb307b386cbc5b350cb}{Dimon}{D\bibinitperiod}{Michelle\bibnamedelima T}{M\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=6fdc8c480a1d43946563c529d2630e60}{Marinotti}{M\bibinitperiod}{Osvaldo}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=5c6a957242e16b544656fa104f082c1b}{James}{J\bibinitperiod}{Anthony\bibnamedelima A}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=7a353a84d8a9b32b716a9db3be6ae50d}{Bonizzoni}{B\bibinitperiod}{Mariangela}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=e9e5faecf6f711a3a39c5557d32e299a}{Dunn}{D\bibinitperiod}{W\bibnamedelima Augustine}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=78db313f9bc4b2b3859408842571e6b5}{Campbell}{C\bibinitperiod}{Corey\bibnamedelima L}{C\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=053ed94e9acdf2a1cdaad4e6676fcdd6}{Olson}{O\bibinitperiod}{Ken\bibnamedelima E}{K\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=7360fbf599b76bb307b386cbc5b350cb}{Dimon}{D\bibinitperiod}{Michelle\bibnamedelima T}{M\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=6fdc8c480a1d43946563c529d2630e60}{Marinotti}{M\bibinitperiod}{Osvaldo}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=5c6a957242e16b544656fa104f082c1b}{James}{J\bibinitperiod}{Anthony\bibnamedelima A}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {BioMed Central Ltd}%
+      }
+      \strng{namehash}{2e6b96da75d79cd7c601015ebbd75a25}
+      \strng{fullhash}{3690b78f1440d0b1fab875d1868da698}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{RNA-seq analyses of blood-induced changes in gene expression in the mosquito vector species, Aedes aegypti}
+      \field{journaltitle}{BMC genomics}
+      \field{number}{1}
+      \field{title}{RNA-seq analyses of blood-induced changes in gene expression in the mosquito vector species, Aedes aegypti}
+      \field{volume}{12}
+      \field{year}{2011}
+      \field{pages}{82}
+    \endentry
+    \entry{dissanayake2010aegepuci}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=c5c98e86c3c655216cad658796bd94ab}{Dissanayake}{D\bibinitperiod}{Sumudu\bibnamedelima N}{S\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=39b5208623b5261b45c01f66cb62235d}{Ribeiro}{R\bibinitperiod}{Jose\bibnamedelima MC}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=e20fef8d943d283d21e93a3a1cdf4053}{Wang}{W\bibinitperiod}{Mei-Hui}{M\bibinithyphendelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=37ff1b0e407b7c98da5a934f3280c0cf}{Dunn}{D\bibinitperiod}{William\bibnamedelima A}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=bfdc8e0b67dff1e06302632eb3141bdc}{Yan}{Y\bibinitperiod}{Guiyun}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=5c6a957242e16b544656fa104f082c1b}{James}{J\bibinitperiod}{Anthony\bibnamedelima A}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=6fdc8c480a1d43946563c529d2630e60}{Marinotti}{M\bibinitperiod}{Osvaldo}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=c5c98e86c3c655216cad658796bd94ab}{Dissanayake}{D\bibinitperiod}{Sumudu\bibnamedelima N}{S\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=39b5208623b5261b45c01f66cb62235d}{Ribeiro}{R\bibinitperiod}{Jose\bibnamedelima MC}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=e20fef8d943d283d21e93a3a1cdf4053}{Wang}{W\bibinitperiod}{Mei-Hui}{M\bibinithyphendelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=37ff1b0e407b7c98da5a934f3280c0cf}{Dunn}{D\bibinitperiod}{William\bibnamedelima A}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=bfdc8e0b67dff1e06302632eb3141bdc}{Yan}{Y\bibinitperiod}{Guiyun}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=5c6a957242e16b544656fa104f082c1b}{James}{J\bibinitperiod}{Anthony\bibnamedelima A}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=6fdc8c480a1d43946563c529d2630e60}{Marinotti}{M\bibinitperiod}{Osvaldo}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {BioMed Central Ltd}%
+      }
+      \strng{namehash}{021b6a8b858dd6b45dc8199eea715199}
+      \strng{fullhash}{96ce019e0acc13e20aff67578d965df1}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{aeGEPUCI: a database of gene expression in the dengue vector mosquito, Aedes aegypti}
+      \field{journaltitle}{BMC research notes}
+      \field{number}{1}
+      \field{title}{aeGEPUCI: a database of gene expression in the dengue vector mosquito, Aedes aegypti}
+      \field{volume}{3}
+      \field{year}{2010}
+      \field{pages}{248}
+    \endentry
+    \entry{sieglaff2009comparative}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=a6bb26884c41d0027014e79232f9d4cf}{Sieglaff}{S\bibinitperiod}{Douglas\bibnamedelima H}{D\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=e9e5faecf6f711a3a39c5557d32e299a}{Dunn}{D\bibinitperiod}{W\bibnamedelima Augustine}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=4cfad25947074ed718524ce30dc311cd}{Xie}{X\bibinitperiod}{Xiaohui\bibnamedelima S}{X\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=ac51483a09902cb02aefae18da761e8d}{Megy}{M\bibinitperiod}{Karyn}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=6fdc8c480a1d43946563c529d2630e60}{Marinotti}{M\bibinitperiod}{Osvaldo}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=5c6a957242e16b544656fa104f082c1b}{James}{J\bibinitperiod}{Anthony\bibnamedelima A}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=a6bb26884c41d0027014e79232f9d4cf}{Sieglaff}{S\bibinitperiod}{Douglas\bibnamedelima H}{D\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=e9e5faecf6f711a3a39c5557d32e299a}{Dunn}{D\bibinitperiod}{W\bibnamedelima Augustine}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=4cfad25947074ed718524ce30dc311cd}{Xie}{X\bibinitperiod}{Xiaohui\bibnamedelima S}{X\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=ac51483a09902cb02aefae18da761e8d}{Megy}{M\bibinitperiod}{Karyn}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=6fdc8c480a1d43946563c529d2630e60}{Marinotti}{M\bibinitperiod}{Osvaldo}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=5c6a957242e16b544656fa104f082c1b}{James}{J\bibinitperiod}{Anthony\bibnamedelima A}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{c1abb1e1ddea8c7f417c9c5097711422}
+      \strng{fullhash}{1a2447de51ad453a8eed6df94e69be2b}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Comparative genomics allows the discovery of cis-regulatory elements in mosquitoes}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{9}
+      \field{title}{Comparative genomics allows the discovery of cis-regulatory elements in mosquitoes}
+      \field{volume}{106}
+      \field{year}{2009}
+      \field{pages}{3053\bibrangedash 3058}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

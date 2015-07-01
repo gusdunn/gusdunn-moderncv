@@ -1,0 +1,103 @@
+%% start of file `template.tex'.
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,letterpaper,sans,draft]{moderncv}
+
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+
+% \usepackage[round]{natbib}
+% \usepackage[ManyBibs,LabelsAligned]{currvita}
+% \usepackage{bibunits}
+\usepackage{verbatim}
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8,top=1cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+
+% personal data
+\firstname{W. Augustine}
+\familyname{Dunn, III}
+\address{132 Nicoll St FL 1}{New Haven CT, 06511}    % optional, remove the line if not wanted
+\mobile{770-312-9544}                    % optional, remove the line if not wanted
+\email{gus.dunn@yale.edu}                      % optional, remove the line if not wanted
+% \homepage{http://gusdunn.com}                % optional, remove the line if not wanted
+% \extrainfo{\url{http://markliu.me}} % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Company Recruitment team}{Pfizer.\\123 somestreet\\some city}
+\date{\today}
+\opening{Dear Dr. Brockel,}
+\closing{Sincerely,}
+\enclosure[Attached]{resume}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+% WHO AM I? WHAT DO I WANT?
+% • First Paragraph
+% • Introduce yourself
+\vspace{-1\baselineskip}
+I am writing to request an interview concerning the open position of Principal Scientist: Computational Biologist (ID: 1014981).
+I recently informed my former colleague Dr. William Gordon that I was interested in exploring career opportunities at Pfizer after hearing how much he respected the company and how positively he regards his experiences there.
+I am thrilled that he made me aware of this position as I feel that there is a wonderful intersection between my experience, personal career goals, and the challenges of this professional opportunity.
+
+
+% WHY ME?
+% • Second and third Paragraphs
+% • PROVIDE EVIDENCE!!!
+% • Do not write a “shopping list” of skills with no evidence
+% • Talk about achievements
+
+I enjoy the process of finding solutions to the varied and complex classes of questions that arise from and are made answerable by exposing data generated at the bench to modern computational resources.
+Additionally, I have expertise that particularly positions me to excel at the interface of biology and its computational interpretation.
+My training as a bench molecular biologist combined with my self-driven and formal training/experience in applying computational solutions to biological questions allow me to think in both ``languages'' and makes me an excellent communicator to/between practitioners of both disciplines.
+
+I have applied data mining methods to large-scale, multidimensional data sets, both during my doctoral work at the University of California, Irvine (UCI) and in my current postdoc here at Yale. 
+At UCI, I generated and coordinately analyzed RNA-seq transcriptomics data from four distantly related disease-vector mosquitoes by integrating phylogenetic, comparative genomic, and functional annotation data from disparate database sources using network graphs to generate testable hypotheses regarding the shared, possibly ancestral, regulatory mechanisms of transcriptional control of the management of the bloodmeal by the midgut. 
+Here at Yale I have analyzed SNP-based population genetics on the genome-scale for tsetse fly populations in Uganda.
+Most recently, I conceived and implemented a Bayesian SNP-pair filtering method for analyzing linkage disequilibrium values of SNP-pairs binned by separation distance to identify SNP-pairs for further analysis while managing differing amounts of data per bin.
+
+
+
+% WHY YOU?
+% • Fourth Paragraph
+% • Talk about your reasons for wanting to work for this organization. Make a link between
+% • your interests and their goals/services/products OR
+% • your values and their mission
+% • Hint: look beyond their webpage
+% • Arrange for a follow-up meeting or call.
+
+I am excited about the prospect of working with the Computational Sciences Center of Emphasis as well as within the context of Pfizer, generally.
+The Computational Sciences Center of Emphasis appears to provide a rich environment for growth and professional challenges through its access to varied data-sources with real-world, translational implications.
+Furthermore, the ability to work within and learn from a group of other bioinformatically-minded professionals is very important to me.
+Finally, the conversations I have had with Dr. Gordon in particular, as well as my exploration of Pfizer more broadly, have convinced me that the company's culture values its employees, promotes balance between work and life, and is a spectacular environment within which to do science.
+
+My resume is included, and thank you for your time regarding my interest in this position.
+Within the next week I will contact you to confirm that you received my application materials and to answer any initial questions you may have.
+
+\makeletterclosing
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
