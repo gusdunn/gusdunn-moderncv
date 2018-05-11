@@ -9,6 +9,7 @@
 *.pdf
 *.run.xml
 *.swp
-*.synctex.gz
+*.synctex.*
 revision.tex
 *.doc*
+__latexindent_temp.tex
